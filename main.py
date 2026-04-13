@@ -3,9 +3,9 @@ from tkinter import messagebox
 import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
-
+ي
 FILE_NAME = 'expenses.csv'
-
+ب
 def initialize_file():
     try:
         with open(FILE_NAME, 'x', newline='', encoding='utf-8') as f:
