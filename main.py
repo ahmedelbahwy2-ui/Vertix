@@ -21,13 +21,13 @@ def add_expense():
     date = datetime.now().strftime("%Y-%m-%d")
 
     if not description or not amount:
-        messagebox.showwarning("Warning", "Please fill all fields!")
+        messagebox.showwarning("Warning", "Please fill in all fields!")
         return
 
     try:
         amount = float(amount)
     except ValueError:
-        messagebox.showerror("Error", "Please enter a valid number in the amount field!")
+        messagebox.showerror("Error", "Please enter a valid number for the amount")
         return
 
     with open(FILE_NAME, 'a', newline='', encoding='utf-8') as f:
@@ -38,7 +38,7 @@ def add_expense():
     desc_entry.delete(0, tk.END)
     amount_entry.delete(0, tk.END)
 
-# --- Matplotlib Graph Function ---
+# --- Plotting Function (Matplotlib) ---
 def show_report():
     categories_data = {}
     
@@ -60,7 +60,7 @@ def show_report():
 
         plt.figure(figsize=(7, 7))
         plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
-        plt.title("Expense Distribution by Category")
+        plt.title("Expenses Distribution by Category")
         plt.show()
 
     except FileNotFoundError:
@@ -92,7 +92,7 @@ category_menu.pack()
 add_button = tk.Button(root, text="Add", bg="#28a745", fg="white", width=25, height=2, font=("Arial", 10, "bold"), command=add_expense)
 add_button.pack(pady=20)
 
-# Bind the report button to the new function (command=show_report)
+# Link report button to new function (command=show_report)
 report_button = tk.Button(root, text="Show Report", bg="#007bff", fg="white", width=25, height=2, font=("Arial", 10, "bold"), command=show_report)
 report_button.pack(pady=5)
 
