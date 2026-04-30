@@ -37,6 +37,7 @@ def add_expense():
     messagebox.showinfo("Success", f"{description} added successfully!")
     desc_entry.delete(0, tk.END)
     amount_entry.delete(0, tk.END)
+    
 # --- Plotting Function (Matplotlib) ---
 def show_report():
     categories_data = {}
