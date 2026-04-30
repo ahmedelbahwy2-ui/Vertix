@@ -32,12 +32,8 @@
 ```
 ## Photo from the project
 
-<div>
+(<img width="750" height="866" alt="image" src="https://github.com/user-attachments/assets/a89daed8-c9be-4d1c-b670-1c9bcbee30d4" />)
 
-(<img width="750" height="866" alt="image" src="https://github.com/user-attachments/assets/a89daed8-c9be-4d1c-b670-1c9bcbee30d4" />
-)
-  
-</div>
 ---
 
 ## 📖 What is Vertix?
