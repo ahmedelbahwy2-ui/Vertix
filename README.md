@@ -175,6 +175,6 @@ vertix-expense-tracker/
 <div align="center">
 
 Made with ❤️ by the **Vertix Team**  
-Mansoura National University — AIE Program
+Mansoura National University — AIE Program level 100
 
 </div>
