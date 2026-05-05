@@ -81,3 +81,20 @@ desc_entry.pack()
 tk.Label(root, text="Amount:", font=("Arial", 10)).pack(pady=5)
 amount_entry = tk.Entry(root, width=40)
 amount_entry.pack()
+tk.Label(root, text="Category:", font=("Arial", 10)).pack(pady=5)
+category_var = tk.StringVar(root)
+category_var.set("Food")
+categories = ["Study", "Food", "Transportation", "Entertainment", "Other"]
+category_menu = tk.OptionMenu(root, category_var, *categories)
+category_menu.pack()
+
+add_button = tk.Button(root, text="Add", bg="#28a745", fg="white", width=25, height=2, font=("Arial", 10, "bold"), command=add_expense)
+add_button.pack(pady=20)
+
+# Link report button to new function (command=show_report)
+report_button = tk.Button(root, text="Show Report", bg="#007bff", fg="white", width=25, height=2, font=("Arial", 10, "bold"), command=show_report)
+report_button.pack(pady=5)
+
+tk.Label(root, text="Project by: Vertix Team", font=("Arial", 8, "italic")).pack(side="bottom", pady=10)
+
+root.mainloop()
