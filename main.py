@@ -65,3 +65,19 @@ def show_report():
 
     except FileNotFoundError:
         messagebox.showerror("Error", "Data file not found!")
+
+# --- User Interface ---
+initialize_file()
+root = tk.Tk()
+root.title("Vertix - Expense Tracker")
+root.geometry("500x550")
+
+tk.Label(root, text="Vertix Expense Manager", font=("Arial", 16, "bold"), fg="darkblue").pack(pady=10)
+
+tk.Label(root, text="Name :", font=("Arial", 10)).pack(pady=5)
+desc_entry = tk.Entry(root, width=40)
+desc_entry.pack()
+
+tk.Label(root, text="Amount:", font=("Arial", 10)).pack(pady=5)
+amount_entry = tk.Entry(root, width=40)
+amount_entry.pack()
