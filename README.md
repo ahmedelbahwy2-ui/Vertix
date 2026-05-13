@@ -24,9 +24,9 @@
 │  Amount:  [_____________________]    │
 │  Category:      [ Food ▾ ]           │
 │                                      │
- │       [     ➕ Add      ]            │
+│       [     ➕ Add      ]            │
 │       [  📊 Show Report ]            │
- │                                      │
+│                                      │
 │       Project by: Vertix Team        │
 └──────────────────────────────────────┘
 ````
@@ -154,6 +154,7 @@ vertix-expense-tracker/
 ---
 
 ## 👥 Team Members
+
 1. **Ahmed Mohamed Ramadan Ramadan Abu Al-Maati** (Leader) - ID: [24040801]
 2. **Loay Mohamed Ahmed Bahloul** - ID: [24040770]
 3. **Sabry Samir Sabry Awad** - ID: [24040362]
