@@ -18,19 +18,19 @@
 
 ```
 ┌──────────────────────────────────────┐
-│       Vertix Expense Manager         │
+│       Verti Expense Manager         │
 │                                      │
-│  Name :   [_____________________]    │
+│  Nam :   [_____________________]    │
 │  Amount:  [_____________________]    │
 │  Category:      [ Food ▾ ]           │
 │                                      │
 │       [     ➕ Add      ]            │
 │       [  📊 Show Report ]            │
 │                                      │
-│       Project by: Vertix Team        │
+│       Poject by: Vertix Team        │
 └──────────────────────────────────────┘
 ```
-## Photo from the project
+## Phفoto from the project
 
 (<img width="750" height="866" alt="image" src="https://github.com/user-attachments/assets/a89daed8-c9be-4d1c-b670-1c9bcbee30d4" />)
 <img width="1052" height="1161" alt="image" src="https://github.com/user-attachments/assets/7e33b2d6-ad16-48d7-9b56-d870c38dcd7b" />
