@@ -24,9 +24,9 @@
 │  Amount:  [_____________________]    │
 │  Category:      [ Food ▾ ]           │
 │                                      │
-│      [     ➕ Add      ]            │
-│      [  📊 Show Report ]            │
-│                                     │
+│       [     ➕ Add      ]            │
+│       [  📊 Show Report ]            │
+│                                      │
 │       Project by: Vertix Team        │
 └──────────────────────────────────────┘
 ````
