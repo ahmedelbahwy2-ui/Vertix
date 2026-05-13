@@ -153,13 +153,13 @@ vertix-expense-tracker/
 
 ---
 
-## 👥 Team Mmbers
+## 👥 Team Members
 
-1. **Ahme Mohamed Ramadan Ramadan Abu Al-Maati** (Leader) - ID: [24040801]
-2. **Loa Mohamed Ahmed Bahloul** - ID: [24040770]
-3. **Sabr Samir Sabry Awad** - ID: [24040362]
-4. **Zia Ahmed Hamida Al-Qasabi** - ID: [24040352]
-5. **Danie Emad Boushra** - ID: [24040347]
+1. **Ahmed Mohamed Ramadan Ramadan Abu Al-Maati** (Leader) - ID: [24040801]
+2. **Loay Mohamed Ahmed Bahloul** - ID: [24040770]
+3. **Sabry Samir Sabry Awad** - ID: [24040362]
+4. **Ziad Ahmed Hamida Al-Qasabi** - ID: [24040352]
+5. **Daniel Emad Boushra** - ID: [24040347]
 
 ---
 
